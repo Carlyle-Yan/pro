@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 60%;
+            margin: 200px auto 0;
+            color: mediumblue;
+        }
+        .title{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .content table{
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .sub{
+            text-align: center;
+        }
+        .sub input{
+            border: 1px solid #CCCCCC;
+            border-radius: 3px;
+            background-color: #3388cc;
+            padding: 3px 30px;
+            color: #ffffff;
+        }
+        .sub input:hover{
+            cursor: pointer;
+            background-color: #0088bb;
+        }
+        /*div{border:1px solid #CCC;}*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 class="title">对外直接投资统计月度快报表（分国家地区）</h3>
+        <div class="content">
+            <form action="" method="get">
+                <table>
+                    <tr>
+                        <td>报告年度：</td>
+                        <td><input type="text" value="2016"/></td>
+                        <td>报告月份：</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">01</option>
+                                <option value="">02</option>
+                                <option value="">03</option>
+                                <option value="">04</option>
+                                <option value="">05</option>
+                                <option value="">06</option>
+                                <option value="">07</option>
+                                <option value="">08</option>
+                                <option value="">09</option>
+                                <option value="">010</option>
+                                <option value="">011</option>
+                                <option value="">012</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>国别分组：</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">不分组</option>
+                                <option value="">分组</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>按累计金额排序：</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">否</option>
+                                <option value="">是</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <div class="sub">
+                <input type="submit" value="查询"/>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
